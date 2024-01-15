@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 30px;
+}
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+.item {
+  width: 100%;
+  max-width: 379px;
+  background-color: #f2f2f2;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.item:hover {
+  border-color: white;
+  cursor: pointer;
+}
+.name {
+  font-weight: bold;
+  margin-left: 40px;
+}
+.avatar {
+  margin-left: 10px;
+}
