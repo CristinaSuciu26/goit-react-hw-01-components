@@ -3,12 +3,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
   flex-wrap: wrap;
-  border-bottom: 1px solid #ddd;
   border-radius: 4px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
   margin-bottom: 70px;
-  padding: 10px;
 }
 
 .statList {
@@ -48,7 +49,7 @@
 }
 .title {
   background-color: #f2f2f2;
-  width: 100%;
+  width: 90%;
   padding: 10px;
   align-items: center;
   display: flex;
